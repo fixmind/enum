@@ -10,6 +10,8 @@ class Vertical extends Enum
 	const BOTTOM = 'BOTTOM';
 }
 
+// OR
+
 class Horizontal extends Enum
 {
 	const VALUE = ['LEFT', 'CENTER', 'RIGHT'];
@@ -47,10 +49,14 @@ foreach(Vertical::getOptionList() as $option)
 }
 ```
 
-### 4 USAGE - check if option is  
+### 4 USAGE - check if option exists  
 ```php
 if (Vertical::isValid('TOP'))
 {
-	echo 'Vertical::TOP';
+	echo 'TOP is a valid value of Vertical Enum';
+}
+if (Vertical::isValid('LEFT') == false)
+{
+	echo 'LEFT is not a valid value of Vertical Enum';
 }
 ```
