@@ -1,0 +1,38 @@
+{
+	"name" : "fixmind/enum",
+	"type" : "library",
+	"keywords" : [
+		"enum",
+		"enumerable",
+		"variable",
+		"type",
+		"constant",
+		"strict",
+		"clear",
+		"transparent"
+	],
+	"homepage" : "https://github.com/fixmind/enum",
+	"description" : "Class organizes collections of constants. Gives the ability to keep code clear, transparent and strict.",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Michal Barcikowski",
+			"email" : "b@rton.it",
+			"homepage" : "https://www.webton.pl",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3",
+		"phpunit/phpunit" : "^5.7"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"fiXmind\\Enum\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"fiXmind\\Tests\\Enum\\" : "tests/"
+		}
+	}
+}
