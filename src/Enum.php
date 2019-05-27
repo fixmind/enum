@@ -7,7 +7,7 @@
  * Project: https://github.com/fixmind/enum/
  */
 
-namespace fiXmind\Enum;
+namespace FixMind\Enum;
 
 class Enum extends EnumCore
 {

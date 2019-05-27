@@ -7,7 +7,7 @@
  * Project: https://github.com/fixmind/enum/
  */
 
-namespace fiXmind\Tests\Enum;
+namespace FixMind\Tests\Enum;
 
 class EnumTest extends \PHPUnit\Framework\TestCase
 {

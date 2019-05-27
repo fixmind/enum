@@ -26,12 +26,12 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"fiXmind\\Enum\\" : "src/"
+			"FixMind\\Enum\\" : "src/"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"fiXmind\\Tests\\Enum\\" : "tests/"
+			"FixMind\\Tests\\Enum\\" : "tests/"
 		}
 	}
 }

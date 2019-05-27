@@ -7,9 +7,9 @@
  * Project: https://github.com/fixmind/enum/
  */
 
-namespace fiXmind\Tests\Enum;
+namespace FixMind\Tests\Enum;
 
-class EnumExample extends \fiXmind\Enum\Enum
+class EnumExample extends \FixMind\Enum\Enum
 {
 	const LOW = 'LOW';
 	const MEDIUM = 'MEDIUM';

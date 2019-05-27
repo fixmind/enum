@@ -7,9 +7,9 @@
  * Project: https://github.com/fixmind/enum/
  */
 
-namespace fiXmind\Tests\Enum;
+namespace FixMind\Tests\Enum;
 
-class EnumAnotherExample extends \fiXmind\Enum\Enum
+class EnumAnotherExample extends \FixMind\Enum\Enum
 {
 	const VALUE = ['BORING', 'INTERESTING', 'COOL'];
 }
