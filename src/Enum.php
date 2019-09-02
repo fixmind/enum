@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Enum 1.0.1
+ * Enum 1.0.2
  * Copyright 2019 Michal Barcikowski
  * Available via the MIT or new BSD @license.
  * Project: https://github.com/fixmind/enum/

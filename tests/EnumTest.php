@@ -1,13 +1,16 @@
 <?php
 
 /**
- * Enum 1.0.1
+ * Enum 1.0.2
  * Copyright 2019 Michal Barcikowski
  * Available via the MIT or new BSD @license.
  * Project: https://github.com/fixmind/enum/
  */
 
-namespace FixMind\Tests\Enum;
+namespace FixMind\Enum\Tests;
+
+use FixMind\Enum\Tests\EnumExample;
+use FixMind\Enum\Tests\EnumAnotherExample;
 
 class EnumTest extends \PHPUnit\Framework\TestCase
 {
